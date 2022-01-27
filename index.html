@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src/img/Favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Buscador de fotos</title>
+</head>
+
+<body>
+    <main>
+        <nav>
+            <div class="divNav">
+                <p id="caption">Pesquisar por</p>
+                <div id="separaPesquisa">
+                    <input id="textPesquisar" type="text" placeholder="Digite aqui o termo">
+                    <input id="buttonPesquisar" type="button" value="Pesquisar">
+                </div>
+                <div class="linkNav">
+                    <a id="Pessoas" href="">Gato</a>
+                    <a id="Decorações" href="">Casa</a>
+                    <a id="HomeOffice" href="">Avião</a>
+                </div>
+            </div>
+        </nav>
+        <section>
+            <div class="sectionImg">
+                <figure>
+                    <img class="imgGerada" src="	https://farm66.staticflickr.com/65535/50771299338_0307001376.jpg"
+                        alt="Foto pesquisada">
+                    <figcaption>Fotos pesquisadas</figcaption>
+                </figure>
+            </div>
+            <div class="sectionDescricao1">
+                <div class="sectionDescricao">
+                    <p id="blocoRoxo"></p>
+                    <p id="title">Lobo na trilha</p>
+                    <span>Imagem tirada por: Keila Lima</span>
+                </div>
+                <div class="sectionSetas">
+                    <button id="passar"> &gt; </button>
+                    <button id="voltar"> &lt; </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script type="module" src="./src/js/script.js"></script>
+</body>
+
+</html>
